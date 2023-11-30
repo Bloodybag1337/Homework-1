@@ -1,0 +1,9 @@
+string surName, firstName, eMail;
+
+Console.WriteLine("Напишите Вашу фамилию");
+surName = Console.ReadLine();
+Console.WriteLine("Напишите Ваше имя");
+firstName = Console.ReadLine();
+Console.WriteLine("Напишите Вашу электронную почту");
+eMail = Console.ReadLine();
+Console.WriteLine(eMail + " - " + surName + " " + firstName);
