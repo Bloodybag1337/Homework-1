@@ -1,5 +1,19 @@
+//Задание 1
+
 string firstName;
 Console.WriteLine("Как Вас зовут?");
 firstName = Console.ReadLine();
 
 Console.WriteLine("Привет, " + firstName);
+
+//Задание 2
+
+string surName, firstName, eMail;
+
+Console.WriteLine("Напишите Вашу фамилию");
+surName = Console.ReadLine();
+Console.WriteLine("Напишите Ваше имя");
+firstName = Console.ReadLine();
+Console.WriteLine("Напишите Вашу электронную почту");
+eMail = Console.ReadLine();
+Console.WriteLine(eMail + " - " + surName + " " + firstName);
