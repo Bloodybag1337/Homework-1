@@ -1,0 +1,5 @@
+string firstName;
+Console.WriteLine("Как Вас зовут?");
+firstName = Console.ReadLine();
+
+Console.WriteLine("Привет, " + firstName);
